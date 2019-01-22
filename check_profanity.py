@@ -4,6 +4,8 @@ def read_text():
 	#FILE-LOCATION:
 	#example LINUX: /home/USER/Desktop/file.txt
 	#example Windows: C:\file.txt
+
+	#Please change the path here 
 	quotes = open(r"FILE-LOCATION")
 	contents_of_file = quotes.read()
 	quotes.close()
